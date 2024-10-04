@@ -43,7 +43,7 @@ app.post("/analyze-image", async (req, res) => {
 
     // Generate content
     const result = await model.generateContent([
-      "Analyze the disease and possible remedy",
+      "Analyze the disease and possible remedy, if there is no disease, tell no disease detected",
       ...imageParts,
     ]);
     const generatedContent = await result.response;
