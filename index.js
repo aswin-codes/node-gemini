@@ -8,7 +8,7 @@ const port = 3000;
 
 
 // Initialize the Generative AI model
-const genAI = new GoogleGenerativeAI("AIzaSyBc9DJ0jSt6ojoAciC9OnEp1DQ_apOvGUc");
+const genAI = new GoogleGenerativeAI("AIzaSyCIeNe6luAhvezKt-V9hPZ0w61ZEOlZO3o");
 
 app.use(bodyParser.json());
 
